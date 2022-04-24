@@ -1,0 +1,68 @@
+.pokemon-info-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+  
+  .container {
+    width: 400px;
+    min-height: 600px;
+    background: #94d2bd;
+    display: flex;
+    flex-direction: column;
+  }
+  .select {
+   height: 3em;
+   margin: 5px;
+   border-radius: 3px;
+   border: 1px solid #0a9396;
+   &:focus{
+     outline: none;
+   }
+   option {
+     text-align: center;
+   }
+  }
+  .info {
+    min-height: 400px;
+    background: #fff;
+    margin: 5px;
+    border-radius: 5px;;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+    img {
+      border-radius: 50%;
+      border: 1px solid #b7b7a4;
+      margin: 30px auto 0 auto;
+      padding: 1em;
+    }
+    h {
+      margin: 0;;
+    }
+    p {
+      padding: 0 0 3em 0;
+    }
+  }
+  
+  .nav-actions {
+    display: flex;
+    margin-top: auto;
+    button {
+      flex:1;
+      appearance: none;
+      border:0;
+      background:#4895ef;
+      padding: 1em;
+      color: #fff;
+      border-radius: 4px;
+      margin: 5px;
+      &:focus,
+      &:active {
+        background:#4cc9f0;
+        box-shadow: 1px 3px 5px 0 rgba($color: #8ecae6, $alpha: 0.5);
+      }
+    }
+  }
